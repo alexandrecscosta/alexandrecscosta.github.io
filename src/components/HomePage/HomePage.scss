@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.BoxesWrapper {
+  display: grid;
+  grid-template-columns: max-content;
+  justify-self: right;
+  row-gap: 3px;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  transition: margin 0.3s ease-in-out, width 0.2s ease-in-out, gap 0.4s ease-out;
+
+  .IntroductionBox > * {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+  }
+
+  &.Expand {
+    grid-template-columns: 0;
+    margin: 0;
+    gap: 0;
+
+    .IntroductionBox{
+      background-color: rgba($color: white, $alpha: 0);
+    }
+    
+
+    .IntroductionBox > * {
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .BoxesWrapper {
+    margin: 60px - $page-margin 0 60px 0;
+  }
+}

@@ -1,0 +1,58 @@
+@import "../../styles/variables";
+
+.DetailedPage {
+    background-color: rgba($color: white, $alpha: 0.9);
+    transition: opacity ease-in 0.2s, background-color ease-in 0.2s;
+
+    &.Exit {
+        opacity: 0;
+        background-color: rgba($color: white, $alpha: 0);
+    }
+}
+
+.DetailedPageContainer {
+    animation: fadeIn ease-in 0.2s;
+    display: grid;
+    grid-template-rows: $page-margin 1fr $page-margin;
+    grid-template-columns: $page-margin 1fr $page-margin;
+}
+
+.DetailedPageWrapper {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    > span {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    span {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.DetailsGrid {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    row-gap: 30px;
+    img {
+        width: 90px;
+        height: 90px;
+        box-shadow: 2px 2px 3px 3px rgba($color: black, $alpha: 0.1);
+    }
+}
+
+@media screen and (min-width: 1300px) and (orientation: landscape) {
+    .DetailedPageWrapper {
+        margin: 0 20px;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

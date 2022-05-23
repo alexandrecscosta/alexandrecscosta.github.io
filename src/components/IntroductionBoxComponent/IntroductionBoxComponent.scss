@@ -1,0 +1,12 @@
+.IntroductionBox {
+    background-color: rgba($color: white, $alpha: 0.6);
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: 20px 1fr 20px;
+    overflow: hidden;
+    transition: background-color 0.4s ease-in-out;
+}
+
+h3, div {
+    grid-column: 2 / 2;
+}
