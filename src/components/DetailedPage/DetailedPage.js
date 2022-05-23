@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './DetailedPage.scss';
 
 import PPortoImage from '../../assets/pporto.jpg';
 import GlookastImage from '../../assets/glookast.jpg';
