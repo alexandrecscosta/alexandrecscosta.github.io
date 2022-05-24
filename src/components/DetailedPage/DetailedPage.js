@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./DetailedPage.scss";
 import PPortoImage from '../../assets/pporto.jpg';
 import GlookastImage from '../../assets/glookast.jpg';
 import HelppierImage from '../../assets/helppier.jpg';
