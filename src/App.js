@@ -3,7 +3,7 @@ import "./App.scss";
 import HomePage from "./components/HomePage/HomePage";
 import DetailedPage from "./components/DetailedPage/DetailedPage";
 import bgImage from "./assets/river-bg.png"
-import CV from "../src/assets/CV.pdf"
+import CV from "../src/assets/AlexandreCostaCV.pdf"
 
 
 // to create a new component: npx generate-react-cli component MyComponent
