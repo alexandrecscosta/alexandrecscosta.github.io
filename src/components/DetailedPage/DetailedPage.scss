@@ -48,6 +48,16 @@
     }
 }
 
+@media screen and (max-width: 800px) and (orientation: portrait) {
+    .DetailsGrid {
+        grid-template-columns: 80px 1fr;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
