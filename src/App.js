@@ -66,7 +66,7 @@ export default function App() {
 
         <div className="Footer">
           <div>
-            <a href={RL} target="_blank" rel="noreferrer">Recomendation Letter</a>
+            <a href={RL} target="_blank" rel="noreferrer">Recommendation Letter</a>
             <a href={CV} target="_blank" rel="noreferrer">My CV</a>
             <a href="https://www.linkedin.com/in/alexandrecscosta/" target="_blank" rel="noreferrer">LinkedIn</a>
             <span>Contact Me: <a href="mailto:alexandrecscosta@outlook.com">alexandrecscosta@outlook.com</a></span>
