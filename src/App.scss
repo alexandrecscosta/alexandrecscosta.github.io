@@ -114,10 +114,12 @@
     justify-content: right;
     > div {
       height: 100%;
+      gap: $page-margin;
+      padding: 0 $page-margin;
       min-width: 40%;
       justify-content: space-around;
       align-items: center;
-      background-color: rgba($color: white, $alpha: 0.4);
+      background-color: rgba($color: white, $alpha: 0.6);
     }
   }
 }

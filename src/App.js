@@ -3,6 +3,7 @@ import "./App.scss";
 import HomePage from "./components/HomePage/HomePage";
 import DetailedPage from "./components/DetailedPage/DetailedPage";
 import bgImage from "./assets/river-bg.png"
+import RL from "../src/assets/AlexandreRecomendationLetter.pdf"
 import CV from "../src/assets/AlexandreCostaCV.pdf"
 
 
@@ -65,8 +66,9 @@ export default function App() {
 
         <div className="Footer">
           <div>
-            <a href={CV} target="blank">My CV</a>
-            <a href="https://www.linkedin.com/in/alexandrecscosta/" target="blank">LinkedIn</a>
+            <a href={RL} target="_blank">Recomendation Letter</a>
+            <a href={CV} target="_blank">My CV</a>
+            <a href="https://www.linkedin.com/in/alexandrecscosta/" target="_blank">LinkedIn</a>
             <span>Contact Me: <a href="mailto:alexandrecscosta@outlook.com">alexandrecscosta@outlook.com</a></span>
           </div>
         </div>
