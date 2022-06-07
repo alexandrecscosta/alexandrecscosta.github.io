@@ -20,8 +20,8 @@ function DetailedPage(props) {
           </span>
           <div className='DetailsGrid'>
             <img src={PPortoImage} alt="Porto Polytechnic"></img>
-            <span>After finishing the highschool professional course on Multimedia Technician, where I learned the basics of programming, I decided to focus on that field and took the bachelors degree in 
-              <a href='https://www.esmad.ipp.pt/courses/degree/663' target="_blank" rel="noreferrer">Technologies and Information Systems for Web</a>.
+            <span>After finishing the highschool professional course on Multimedia Technician, where I learned the basics of programming, I decided to focus on that field and took the bachelors degree
+              in <a href='https://www.esmad.ipp.pt/courses/degree/663' target="_blank" rel="noreferrer">Technologies and Information Systems for Web</a>.
               On this course, I learned everything related to developing a Web app: from the UML diagrams and designing the user interface to developing the actual app using diverse programming languages.
               Apart from that I also learned about other topics, such as: developing games, 2D and 3D animations, editing images and creating vector shapes.</span>
             <img src={HelppierImage} alt="Helppier"></img>
